@@ -1,0 +1,146 @@
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+   font-weight: 700;
+ }
+ 
+ p{
+   color: #8f8f8f;
+ }
+ 
+ .container-fluid{
+   padding: 7% 15%;
+ }
+ 
+ /* headings */
+ 
+ .big-heading{
+   font-weight: 900;
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+ 
+ .section-heading{
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+ 
+ /* title section */
+ 
+ #title {
+   background-color: #800080;
+   color: white;
+   text-align: left;
+ }
+ 
+ #title .container-fluid{
+   padding: 3% 15% 7%;
+ }
+ 
+ /* navigation bar */
+ 
+ .logo{
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+ 
+ .navbar{
+   padding-bottom: 2.5rem;
+ }
+ 
+ .nav-item{
+   padding: 0 18px;
+ }
+ 
+ .nav-link{
+   font-size: 1.2rem;
+   font-weight: 300;
+ }
+ 
+ /* download botton */
+ 
+ .download-button{
+   margin: 5% 3% 5% 0;
+ }
+ 
+ /* title image */
+ 
+ .title-image{
+   width: 22%;
+   position: absolute;
+   right: 25%;
+ }
+ 
+ /* features */
+ 
+ #features{
+   background-color: #fff;
+   position: relative;
+   z-index: 1;
+ }
+ 
+ .feature-title{
+   font-size: 1.5rem;
+ }
+ 
+ .feature-box{
+   padding: 5%;
+ }
+ 
+ .features-icons{
+   color: #b19cd9;
+   margin-bottom: 10%;
+ }
+ 
+ .features-icons:hover{
+   color: #800080;
+ }
+ 
+
+ 
+ /* Call to Action */
+ 
+ #cta{
+   background-color: #ff4c68;
+   color: #fff;
+ }
+ 
+ /* Footer */
+ 
+ .social-logo{
+   margin: 20px 10px;
+   color: black;
+ }
+ 
+ .tw-logo:hover{
+   color: #1DA1F2;
+ }
+ .fb-logo:hover{
+   color: #4267B2;
+ }
+ .ig-logo:hover{
+   color: #cd486b;
+ }
+ .mail-logo:hover{
+   color: #0000a9;
+ }
+ 
+ @media (max-width: 1028px) {
+   #title{
+     text-align: center;
+   }
+ 
+   .title-image{
+     position: static;
+     padding-top: 10%;
+     transform: rotate(0);
+     width: 80%;
+   }
+ 
+ }
+ 
