@@ -75,6 +75,12 @@ body{
    position: absolute;
    right: 25%;
  }
+
+ .cc-logo{
+   width: 12%;
+   margin-right: 2%;
+   padding-bottom: 1%;
+ }
  
  /* features */
  

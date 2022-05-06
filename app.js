@@ -12,10 +12,17 @@ app.get('/', function(req, res){
    res.render("home");
 });
 
+app.get('/chat', function(req, res){
+   res.render("chat");
+});
 
+app.get('/event', function(req, res){
+   res.render("event");
+});
 
-
-
+app.get('/about', function(req, res){
+   res.render("about");
+});
 
 
 
